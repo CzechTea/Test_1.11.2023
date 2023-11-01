@@ -1,0 +1,30 @@
+body {
+  background-color: lightblue;
+  font-family: 'Helvetica';
+}
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: blue;
+  padding: 10px;
+  font-family: 'Continuum Bold', sans-serif;
+}
+.grid-item {
+  background-color: lightskyblue;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Helvetica';
+}
+.cell-1 {
+  background: deepskyblue;
+}
+.cell-2 {
+  background: cornflowerblue;
+}
+
